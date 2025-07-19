@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color:  rgb(62, 98, 122);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navigasi {
+    background-color: rgba(0, 0, 0, 0.235);
+    color: aliceblue;
+    font-size: 30px;
+    font-family: serif;
+    padding: 50px;
+    width: 1200px;
+    margin: 25px auto 10px auto;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    gap: 10%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.semua {
+    padding: 50px;
+    text-align: center;
+}
+
+.gambargw {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.photo {
+    width: 50%; /* Besar tapi tetap responsif */
+    max-width: 800px; /* Batas maksimal */
+    height: 50%;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(137, 203, 219, 0.2);
+}
+
+.desgw {
+    font-size: 18px;
+    font-family: serif;
+    text-align: justify;
+    width: 60%;
+    margin: 30px auto; /* margin kiri-kanan otomatis */
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.7); /* Biar kelihatan lebih enak */
+    border-radius: 8px;
+    color: #002f3d;
+}
+
+.desgw h1 {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: serif;
+    color: #003b6f;
+}
+
